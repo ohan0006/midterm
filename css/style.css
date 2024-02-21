@@ -1,0 +1,40 @@
+body{
+    font-family: "Vesper Libre", serif;
+    color: 1a1a1a;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header, footer{
+    background-color: 000;
+    color: #fff;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+#pitchfork-logo{
+    width: 100px;
+    padding-top: 8px;
+}
+
+main{
+    padding: 20px;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-top: 1rem;
+    margin-bottom: 1 rem;
+}
+
+#border{
+    display: inline-block;
+    text-decoration: uppercase;
+    font-size: .85rem;
+    border-bottom: 2px, solid, ff3530;
+}
+
