@@ -15,7 +15,7 @@ img{
     width: 100%;
 }
 
-#pitchfork-logo{
+.pitchfork-logo{
     width: 100px;
     padding-top: 8px;
 }
@@ -31,10 +31,49 @@ h1{
     margin-bottom: 1 rem;
 }
 
-#border{
+#news{
     display: inline-block;
-    text-decoration: uppercase;
+    text-transform: uppercase;
     font-size: .85rem;
-    border-bottom: 2px, solid, ff3530;
+    border-bottom: 2px, solid, #ff3530;
 }
 
+figcaption, #news, #sub-title, authour, date, h2{
+    font-family: "open sans";
+}
+
+authour, date{
+    font-size: .85rem;
+    margin-bottom: 0;
+}
+
+figure{
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+figcaption{
+    font-size: .75em;
+    text-align: center;
+    color: #757575;
+    font-style: italic;
+}
+
+#nominees{
+    list-style: none;
+    padding-left: 0;
+}
+
+a:link{
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+
+a:hover
+a:focus{
+    text-decoration: none;
+    color: #ff3530;
+
+}
